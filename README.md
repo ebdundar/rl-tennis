@@ -3,13 +3,18 @@
 
 ### Introduction
 
-In this project, I have applied MADDP algorithm to train agents in the environment named [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) environment.
+In this project, [MADDPG](https://arxiv.org/pdf/1706.02275.pdf) algorithm is implemented to train agents in the environment named [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) environment.  The following figure demonstrates the effect of training our agents on the environment.
+
+Random Tennis Agent         |  MADDPG Tennis Agents
+:-------------------------:|:-------------------------:
+![](random.gif)  |  ![](smart.gif)
 
 
 In this environment, our aim is to train agents to bounce a ball to opponents area. These agents can control their rackets. If they successfully bounce the ball in that way, they are rewarded by +0.1. Otherwise, they get a negative reward which is -0.01. So, the aim of a game is not to let the ball hit the ground.
 
 These agents receive local observations with 8 variables about the position and velocity of the ball and racket. And, they have 2 actions which are continuous: horizontal and vertical axes.
 
+### Termination Criteria
 This task is episodic. Thus, it is solved when our agents get an average score more than 0.5. That average scores is calculated by averaging scores the previous 100 episodes. A score of an episode is the maximum of agents scores.
 
 
@@ -30,3 +35,8 @@ This task is episodic. Thus, it is solved when our agents get an average score m
 ### Instructions
 
 Follow the instructions in `Tennis.ipynb` to get started with training your own agent!  
+
+## Using a pretrained version
+If you are impatient, then you may use the pre-trained model parameters in the repository named trained_actor_a<0,1>.pt. All you need to do is to set USE_PRETRAIN variable to True. This variable can be found in the second cell in Tennis.ipynb notebook.
+
+If you are struggle to work on this project, please just open an issue. Look forward to hear about your nice experiences!
