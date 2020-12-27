@@ -20,6 +20,11 @@ This task is episodic. Thus, it is solved when our agents get an average score m
 
 ### Getting Started
 
+At first, we should set up out python environment via following the instructions in [here](https://github.com/udacity/deep-reinforcement-learning#dependencies)
+
+Secondly, we should obtain the environment. You do not have to install Unity but the Tennis environment. Please download and extract the appropriate version, then place it in the path of the Jupyter notebook. You can download the environment by the following steps.
+
+
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
