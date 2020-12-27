@@ -3,7 +3,7 @@
 
 ### Introduction
 
-In this project, [MADDPG](https://arxiv.org/pdf/1706.02275.pdf) algorithm is implemented to train agents in the environment named [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) environment.  The following figure demonstrates the effect of training our agents on the environment.
+In this project, [MADDPG](https://arxiv.org/pdf/1706.02275.pdf) algorithm is implemented to train agents in the [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) environment.  The following figure demonstrates the effect of training our agents on the environment.
 
 Random Tennis Agent         |  MADDPG Tennis Agents
 :-------------------------:|:-------------------------:
